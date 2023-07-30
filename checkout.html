@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Covers - Payment Gateway</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+    <div class="container">
+        <h6>Checkout</h6>
+        <h1>Payment Method</h1>
+        <form action="formprocessor.html" method="get" id="contactForm">
+
+            <label for="HomeAddress">Home Address
+                <input type="text" name="homeaddress" id="homeaddress" placeholder="Home Address" class="Home Address" required>
+            </label>
+
+            <label for="CardNumber">Card Number
+                <input type="text" name="cardnumber" id="cardnumber" placeholder="0000 0000 0000 0000"
+                    class="Card Number" maxlength="19" required>
+            </label>
+
+            <div class="float">
+                <label for="validtill">Expiration Date
+                    <input type="text" name="validtill" id="validtill" placeholder="10/22" maxlength="7" required>
+                </label>
+
+                <label for="cvv">CVV
+                    <input type="text" name="cvv" id="cvv" placeholder="777" maxlength="3" required>
+                </label>
+            </div>
+            <label for="checkout">
+                <input type="submit" id="checkout" value="Checkout">
+            </label>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

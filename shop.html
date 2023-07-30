@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon -->
+
+    <title>Cozy Covers - Shop Now</title>
+</head>
+
+<body>
+
+ <!--Header of the page (navbar)-->
+ <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">CozyCovers<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="file:///C:/WebDev/cozycovers_webpage/index.html#home">home</a>
+        <a href="file:///C:/WebDev/cozycovers_webpage/index.html#about">about</a>
+        <a href="shop.html">products</a>
+        <a href="file:///C:/WebDev/cozycovers_webpage/index.html#review">review</a>
+        <a href="file:///C:/WebDev/cozycovers_webpage/index.html#contact">contact</a>
+    </nav>
+
+</header>
+<!--Header of the page (navbar)-->
+
+    <!--cart-->
+
+    <!--open btn-->
+    <button id="open_cart_btn">
+        <a href="" class="fas fa-shopping-cart"></a>
+    </button>
+
+    <!--items on display-->
+    <div class="items">
+
+    </div>
+
+    <!--backdrop-->
+    <div class="backdrop"></div>
+
+
+    <!--side cart-->
+    <div id="sidecart" class="sidecart">
+        <div class="cart_content">
+
+            <!--cart header-->
+            <div class="cart_header">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <div class="header_title">
+                    <h2>Your Cart</h2>
+                    <span id="items_num">0</span>
+                </div>
+                <span id="close_btn" class="close_btn">&times;</span>
+            </div>
+
+
+            <!--cart items-->
+            <div class="cart_items"></div>
+
+            <!--cart actions-->
+            <div class="cart_actions">
+                <div class="subtotal">
+                    <p>SUBTOTAL:</p>
+                    <p>$ <span id="subtotal_price">0</span></p>
+                </div>
+                <!--<button>View Cart</button>-->
+                <button>
+                    <a href="checkout.html">Checkout</a>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <!--cart-->
+
+        <!--Footer-->
+        <footer>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+    
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="file:///C:/WebDev/cozycovers_webpage/index.html#home">Home</a></li>
+                        <li><a href="file:///C:/WebDev/cozycovers_webpage/index.html#about">About Us</a></li>
+                        <li><a href="shop.html">Products</a></li>
+                        <li><a href="file:///C:/WebDev/cozycovers_webpage/index.html#review">Reviews</a></li>
+                        <li><a href="file:///C:/WebDev/cozycovers_webpage/index.html#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footerBottom">
+                    <p>CopyRight &copy; 2023; Designed by <span class="designer">Charlotte</span></p>
+    
+                </div>
+            </div>
+        </footer>
+        <!--Footer-->
+
+</body>
+
+</html>
+<!--Link java from external file-->
+<script src="addtocart.js"></script>
+<!--Link java from external file-->
