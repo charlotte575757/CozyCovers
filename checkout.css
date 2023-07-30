@@ -1,0 +1,110 @@
+/*all*/
+:root{
+    --beige:#E9D4B7;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input::placeholder{
+    color: #aa7b45;
+}
+input{
+    caret-color: var(--beige);
+}
+input[type="text"] {
+    color: #aa7b45;
+}
+/*all*/
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #aa7b45;
+    text-transform: capitalize;
+
+}
+.container{
+    width: 350px;
+    background: #6a4b20;
+    padding: 30px;
+    position: relative;
+    border-radius: 5%;
+}
+h6{
+    font-size: 20px;
+    color: var(--beige);
+}
+h1{
+    padding: 30px 0px;
+    font-size: 40px;
+    color: var(--beige);
+}
+form label{
+    color: var(--beige);
+    text-transform: uppercase;
+    position: relative;
+    font-size: 10px;
+    word-spacing: 4px;
+}
+form #homeaddress{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #aa7b45;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    margin-left: -3px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+form #cardnumber{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #aa7b45;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    margin-left: -3px;
+    font-size: 18px;
+    background-color: transparent;
+    padding-bottom: 5px;
+}
+.float{
+    display: flex;
+}
+#validtill , #cvv{
+    width: 130px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #aa7b45;
+    padding-top: 14px;
+    margin-bottom: 56px;
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: -3px;
+    margin-right: 30px;
+}
+#checkout{
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #aa7b45;
+    color: var(--beige);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5%;
+}
+#checkout:hover{
+    color:#6a4b20;
+    transition: .2s linear;
+}
